@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 
 const Hero: React.FC = () => {
   const [currentText, setCurrentText] = useState('');
@@ -6,10 +6,10 @@ const Hero: React.FC = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   
-  const texts = [
+  const texts = useMemo(() => [
     "Jahred Uy",
     "a Full-Stack Developer"
-  ];
+  ], []);
   
   const typingSpeed = 100;
   const deletingSpeed = 50;
