@@ -7,68 +7,13 @@ const Projects: React.FC = () => {
     {
       id: 1,
       title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce application built with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration.',
-      image: 'https://via.placeholder.com/400x250/3B82F6/FFFFFF?text=E-Commerce',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      description: 'A full-stack e-commerce application built with React, Typescript, and Tailwind CSS. Features include user authentication, product management, shopping cart, and payment integration.',
+      image: 'https://www.thegreentable.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fthe-green-table.eedaa12c.png&w=3840&q=75',
+      technologies: ['React', 'Java', 'Typescript', 'Tailwind CSS'],
       category: 'fullstack',
-      liveUrl: '#',
+      liveUrl: 'https://www.thegreentable.co/en',
       githubUrl: '#',
       featured: true
-    },
-    {
-      id: 2,
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      image: 'https://via.placeholder.com/400x250/8B5CF6/FFFFFF?text=Task+App',
-      technologies: ['React', 'TypeScript', 'Socket.io', 'Express'],
-      category: 'frontend',
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: true
-    },
-    {
-      id: 3,
-      title: 'Weather Dashboard',
-      description: 'A beautiful weather application that displays current weather conditions and forecasts using OpenWeatherMap API with location-based services.',
-      image: 'https://via.placeholder.com/400x250/10B981/FFFFFF?text=Weather+App',
-      technologies: ['React', 'TypeScript', 'Tailwind CSS', 'OpenWeatherMap API'],
-      category: 'frontend',
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: false
-    },
-    {
-      id: 4,
-      title: 'Blog Platform',
-      description: 'A modern blog platform with markdown support, user authentication, and admin dashboard for content management.',
-      image: 'https://via.placeholder.com/400x250/F59E0B/FFFFFF?text=Blog+Platform',
-      technologies: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL'],
-      category: 'fullstack',
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: false
-    },
-    {
-      id: 5,
-      title: 'Portfolio Website',
-      description: 'A responsive portfolio website built with React and Tailwind CSS, featuring smooth animations and modern design.',
-      image: 'https://via.placeholder.com/400x250/EF4444/FFFFFF?text=Portfolio',
-      technologies: ['React', 'TypeScript', 'Tailwind CSS'],
-      category: 'frontend',
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: false
-    },
-    {
-      id: 6,
-      title: 'API Gateway',
-      description: 'A microservices API gateway built with Node.js and Express, featuring rate limiting, authentication, and request routing.',
-      image: 'https://via.placeholder.com/400x250/06B6D4/FFFFFF?text=API+Gateway',
-      technologies: ['Node.js', 'Express', 'Redis', 'Docker'],
-      category: 'backend',
-      liveUrl: '#',
-      githubUrl: '#',
-      featured: false
     }
   ];
 
@@ -128,7 +73,7 @@ const Projects: React.FC = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
+                  className="w-58 h-32 object-cover hover:scale-105 transition-transform duration-300"
                 />
                 {project.featured && (
                   <div className="absolute top-4 left-4 bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
