@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Platform",
+    "description": "A full-stack e-commerce application built with React, Typescript, and Tailwind CSS. Features include user authentication, product management, shopping cart, and payment integration.",
+    "image": "https://www.thegreentable.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fthe-green-table.eedaa12c.png&w=3840&q=75",
+    "technologies": ["React", "Java", "Typescript", "Tailwind CSS"],
+    "category": "fullstack",
+    "liveUrl": "https://www.thegreentable.co/en",
+    "githubUrl": "#",
+    "featured": true
+  }
+] 
