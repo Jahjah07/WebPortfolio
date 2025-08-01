@@ -56,11 +56,11 @@ const About: React.FC = () => {
               {/* Quick Facts */}
               <div className="grid grid-cols-2 gap-4 pt-6">
                 <div className="text-center p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
-                  <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">3+</div>
+                  <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">1</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">Years Experience</div>
                 </div>
                 <div className="text-center p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
-                  <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">20+</div>
+                  <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">1</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">Projects Completed</div>
                 </div>
               </div>

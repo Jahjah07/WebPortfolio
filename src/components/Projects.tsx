@@ -113,7 +113,7 @@ const Projects: React.FC = () => {
                   </a>
                   <a
                     href={project.githubUrl}
-                    className="btn-secondary flex-1 text-center"
+                    className="btn-secondary flex-1 text-center opacity-50 cursor-not-allowed pointer-events-none"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
