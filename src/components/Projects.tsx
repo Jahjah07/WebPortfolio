@@ -70,7 +70,7 @@ const Projects: React.FC = () => {
               <div className="relative overflow-hidden">
                 <img
                   src={project.image}
-                  alt={project.title}
+                  // alt={project.title}
                   className="w-58 h-32 object-cover hover:scale-105 transition-transform duration-300"
                 />
                 {project.featured && (
@@ -113,7 +113,7 @@ const Projects: React.FC = () => {
                   </a>
                   <a
                     href={project.githubUrl}
-                    className="btn-secondary flex-1 text-center opacity-50 cursor-not-allowed pointer-events-none"
+                    className="btn-secondary flex-1 text-center"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

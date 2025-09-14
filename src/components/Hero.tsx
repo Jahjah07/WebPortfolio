@@ -77,7 +77,7 @@ const Hero: React.FC = () => {
 
           {/* Subtitle with highlighted text */}
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
-            Full-Stack Developer passionate about{' '}
+            a Full-Stack Developer passionate about{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 font-semibold">
               creating beautiful, functional, and user-friendly web applications
             </span>

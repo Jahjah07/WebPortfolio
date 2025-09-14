@@ -9,5 +9,16 @@
     "liveUrl": "https://www.thegreentable.co/en",
     "githubUrl": "#",
     "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Photobooth Web App",
+    "description": "A fun web app to capture, style, and download photos with custom frames",
+    "image": "#",
+    "technologies": ["React", "Vue", "Typescript", "Tailwind CSS"],
+    "category": "fullstack",
+    "liveUrl": "https://freephotobooth.netlify.app/",
+    "githubUrl": "https://github.com/Jahjah07/PhotoBooth",
+    "featured": true
   }
-] 
+]
