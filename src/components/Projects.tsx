@@ -70,7 +70,7 @@ const Projects: React.FC = () => {
               <div className="relative overflow-hidden">
                 <img
                   src={project.image}
-                  // alt={project.title}
+                  alt={project.title}
                   className="w-58 h-32 object-cover hover:scale-105 transition-transform duration-300"
                 />
                 {project.featured && (
